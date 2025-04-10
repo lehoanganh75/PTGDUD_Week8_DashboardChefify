@@ -63,9 +63,9 @@ const Content = () => {
                         <div className="p-8">
                            <div className='flex justify-between'>
                             <h3 className="text-lg font-semibold text-gray-900">{recipe.title}</h3>
-                           <button type='button' className='hover:cursor-pointer'>
-                                <img src="./images/Icon.png" alt="" />
-                           </button>
+                            <button type='button' className='hover:cursor-pointer'>
+                                    <img src="./images/Icon.png" alt="" />
+                            </button>
                            </div>
                            <br />
                            <p className="text-sm text-[#F44B87FF] p-2 w-25 bg-[#FEF0F5FF] rounded-lg">{recipe.time}</p>
